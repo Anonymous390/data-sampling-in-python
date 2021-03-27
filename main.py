@@ -29,7 +29,7 @@ def setup():
         set_of_means = random_set_of_mean(100)
         mean_list.append(set_of_means)
 
-    plot_graph()
+    plot_graph(mean_list)
 
 def plot_graph(mean_list):
     df = mean_list
